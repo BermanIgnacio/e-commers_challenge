@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+Este proyecto conciste en realizar un e-commers sencillo. Con las siguientes especificaciones
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Los usuarios deberían poder:
 
-## Available Scripts
+    Vea las placas en el lado izquierdo de la pantalla y agréguelas a su carrito en el lado derecho.
+    Cuando no haya placas en su carrito, debería ver un mensaje que dice: "Su carrito está vacío".
+    Cuando se agrega un plato a su carrito, el subtotal y los totales se actualizarán automáticamente.
+    Cuando hay productos en su carrito, debería poder aumentar y disminuir la cantidad.
+        Un usuario no debería poder marcar la cantidad como un número negativo.
+        Si la cantidad baja a 0, el usuario tendrá la opción de eliminar o eliminar el producto de su carrito por completo.
+    El impuesto se basa en el impuesto sobre las ventas del estado de Tennessee: 0,1
 
-In the project directory, you can run:
+Empezando
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Para comenzar, descargue los archivos comprimidos (dentro de Podia). Esto incluye todos los activos del proyecto que necesita para comenzar: HTML, CSS e imágenes.
+    Mira a tu alrededor. Mire el archivo Figma del proyecto. Esta es una excelente manera de ver cómo deberían verse las piezas y partes dentro del navegador.
+    Abra el archivo README.md del proyecto. Tiene información adicional sobre cómo está estructurado el proyecto.
+    Personaliza la arquitectura de tu proyecto/archivo a tu gusto.
